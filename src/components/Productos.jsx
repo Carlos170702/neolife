@@ -198,7 +198,7 @@ export const productosViewClientes = [
   {
     nombre: "Pro Vitality",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379795/neolife/qoib5f97wx6lxc9z0anc.webp",
-    descripcion:[
+    descripcion: [
       "CUATRO NUTRIENTES ESENCIALES: ",
       "°Tre-en-en °Carotenoid Complex  °Salmon oil plus °Complejo esencial de vitaminas y minerales",
       "Nutrientes potentes que contribuyen a:",
@@ -250,7 +250,7 @@ export const productosViewClientes = [
   {
     nombre: "Tre en en",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379767/neolife/iqyznekpstao4atbtpif.webp",
-    descripcion:[
+    descripcion: [
       "El primer y único suplemento en el mundo de lípidos y esteroles procedentes de granos integrales",
       "Se demostró que cuando Tre-en-en está presente en la dieta, mejoró el crecimiento y el desarrollo general, la eficiencia y utilización de los nutrientes y el desarrollo cardiovascular.",
       "° Mejora la energía y la vitalidad optimizando el funcionamiento de la membrana celular. Llena de energía todo el cuerpo, ayudando a las células a funcionar de manera más eficiente.",
@@ -274,7 +274,7 @@ export const productosViewClientes = [
   {
     nombre: "Vitamin E plus",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379783/neolife/wyj6aw7gkljl7j7pej93.webp",
-    descripcion:[
+    descripcion: [
       "Ofrece las 8 formas de la vitamina E para una protección de amplio espectro",
       "° Ayuda a inhibir la oxidación del colesterol gracias a sus potentes efectos antioxidantes.",
       "° Mejora la función inmunológica, especialmente en los ancianos.",
@@ -286,7 +286,7 @@ export const productosViewClientes = [
   {
     nombre: "Vita-Squares",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379768/neolife/felrmyxxzjcfouef0oia.webp",
-    descripcion:[
+    descripcion: [
       "Cargado con 18 vitaminas y minerales esenciales",
       "Proporciona nutrientes que promueven el crecimiento y el desarrollo saludable del cuerpo y la mente.",
       "° Mejorado con colina e inositol para una memoria óptima, aprendizaje y concentración.",
@@ -305,7 +305,7 @@ export const productosViewClientes = [
   {
     nombre: "Aloe Vera Gel",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379791/neolife/loomacocvrixd4olrrda.webp",
-    descripcion:[
+    descripcion: [
       "°El Gel de Aloe Vera de Nutriance contiene una rica combinación de aloe vera puro, manzanilla, tilo, aciano y extractos de hierba de San Juan, además de alantoína y caléndula para apoyar la renovación célular, tambiénDF contiene provitamina B5 (pantenol) para suavizar la piel y dar elasticidad. Clínicamente probado para hidratar, ayudar a calmar y reducir las molestias leves de la piel. También ayuda a la renovación de la misma.",
       "Fórmula única que se adapta a cada persona e interactúa con las feromonas naturales de su cuerpo mezclándose con su química personal para hacerse prácticamente imperceptible por la nariz. No entrará en conflicto con su delicado perfume o colonia favorita.",
     ],
@@ -410,6 +410,10 @@ export const productosViewDistribuidores = [
       "3. Maximizar la función receptora de la insulina",
       "4. Maximizar la función pancreática normal para niveles sanos de insulina..",
     ],
+    caja: {
+      precio: 4702,
+      puntos: 216,
+    },
     precio: 1103,
   },
   {
@@ -612,7 +616,7 @@ export const productosViewDistribuidores = [
   {
     nombre: "Pro Vitality",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379795/neolife/qoib5f97wx6lxc9z0anc.webp",
-    descripcion:[
+    descripcion: [
       "CUATRO NUTRIENTES ESENCIALES: ",
       "°Tre-en-en °Carotenoid Complex  °Salmon oil plus °Complejo esencial de vitaminas y minerales",
       "Nutrientes potentes que contribuyen a:",
@@ -694,7 +698,7 @@ export const productosViewDistribuidores = [
   {
     nombre: "Tre en en",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379767/neolife/iqyznekpstao4atbtpif.webp",
-    descripcion:[
+    descripcion: [
       "El primer y único suplemento en el mundo de lípidos y esteroles procedentes de granos integrales",
       "Se demostró que cuando Tre-en-en está presente en la dieta, mejoró el crecimiento y el desarrollo general, la eficiencia y utilización de los nutrientes y el desarrollo cardiovascular.",
       "° Mejora la energía y la vitalidad optimizando el funcionamiento de la membrana celular. Llena de energía todo el cuerpo, ayudando a las células a funcionar de manera más eficiente.",
@@ -733,7 +737,7 @@ export const productosViewDistribuidores = [
   {
     nombre: "Vitamin E plus",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379783/neolife/wyj6aw7gkljl7j7pej93.webp",
-    descripcion:[
+    descripcion: [
       "Ofrece las 8 formas de la vitamina E para una protección de amplio espectro",
       "° Ayuda a inhibir la oxidación del colesterol gracias a sus potentes efectos antioxidantes.",
       "° Mejora la función inmunológica, especialmente en los ancianos.",
@@ -750,7 +754,7 @@ export const productosViewDistribuidores = [
   {
     nombre: "Vita-Squares",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379768/neolife/felrmyxxzjcfouef0oia.webp",
-    descripcion:[
+    descripcion: [
       "Cargado con 18 vitaminas y minerales esenciales",
       "Proporciona nutrientes que promueven el crecimiento y el desarrollo saludable del cuerpo y la mente.",
       "° Mejorado con colina e inositol para una memoria óptima, aprendizaje y concentración.",
@@ -779,7 +783,7 @@ export const productosViewDistribuidores = [
   {
     nombre: "Aloe Vera Gel",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379791/neolife/loomacocvrixd4olrrda.webp",
-    descripcion:[
+    descripcion: [
       "°El Gel de Aloe Vera de Nutriance contiene una rica combinación de aloe vera puro, manzanilla, tilo, aciano y extractos de hierba de San Juan, además de alantoína y caléndula para apoyar la renovación célular, tambiénDF contiene provitamina B5 (pantenol) para suavizar la piel y dar elasticidad. Clínicamente probado para hidratar, ayudar a calmar y reducir las molestias leves de la piel. También ayuda a la renovación de la misma.",
       "Fórmula única que se adapta a cada persona e interactúa con las feromonas naturales de su cuerpo mezclándose con su química personal para hacerse prácticamente imperceptible por la nariz. No entrará en conflicto con su delicado perfume o colonia favorita.",
     ],
@@ -1049,21 +1053,23 @@ export const Productos = () => {
             </div>
 
             {/*  */}
-            <div className="contentEnvio">
-              <h6 className="titleENvio">Envio</h6>
-              <div className="contentEnvioInput">
-                <label onChange={() => {}} htmlFor="Tarjeta">
-                  Entregar a otra dirección
-                </label>
-                <input
-                  onChange={() => {
-                    setEnvio(true);
-                    setTotal(total + 100);
-                  }}
-                  type="radio"
-                />
+            {enlaces.length > 0 && (
+              <div className="contentEnvio">
+                <h6 className="titleENvio">Envio</h6>
+                <div className="contentEnvioInput">
+                  <label onChange={() => {}} htmlFor="Tarjeta">
+                    Entregar a otra dirección
+                  </label>
+                  <input
+                    onChange={() => {
+                      setEnvio(true);
+                      setTotal(total + 100);
+                    }}
+                    type="radio"
+                  />
+                </div>
               </div>
-            </div>
+            )}
 
             {/* hacer pedido por whatsapp */}
             <div className="productos__carrito__hacerPedido">
