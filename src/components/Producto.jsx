@@ -9,8 +9,6 @@ export const Producto = ({ producto }) => {
     dispatch(addProductoModal(producto));
   };
 
-  console.log(producto)
-
   return (
     <div>
       <div onClick={() => productoModal(producto)} className="producto">
@@ -18,28 +16,25 @@ export const Producto = ({ producto }) => {
           className="producto__img"
           src={producto.img}
           alt={producto.nombre}
-          // loading="lazy"
+          loading="lazy"
         />
         <div className="producto__informacion">
           <h6 className="producto__nombre">{producto.nombre}</h6>
           <div className="producto__descripcion">
-            {producto?.nombre === "BG"
-              ? producto.descripcion.map((item, index) => ( 
+            {producto?.nombre === "BG" ||
+            producto?.nombre === "Bio-Tone NTS" ||
+            producto?.nombre === "CoQ10" ||
+            producto?.nombre === "Pro Vitality" ||
+            producto?.nombre === "Tre en en" ||
+            producto?.nombre === "Vitamin E plus" ||
+            producto?.nombre === "Vita-Squares"|| 
+            producto?.nombre === "Aloe Vera Gel"
+              ? producto.descripcion.map((item, index) => (
                   <p key={index}>{item}</p>
-              ))
+                ))
               : producto.descripcion
                   .split(".")
                   .map((des, index) => <p key={index}>{des}</p>)}
-
-            {/* {producto.descripcion.map((item, index) => (
-              <p key={index}>{item}</p>
-            ))} */}
-            {/* {producto.descripcion.split(".").map((des, index) => (
-              <p key={index}>
-                {des}
-                <br />
-              </p>
-            ))} */}
           </div>
           <h6 className="producto__precio">
             $ {producto?.precio.toLocaleString("es-MX")}.00 MX

@@ -103,7 +103,7 @@ export const productosViewClientes = [
       "Apoya una visión y una audición saludables.",
       "Disminuir las posibilidades de migraña.",
     ],
-    precio: 931,
+    precio: 930,
   },
   {
     nombre: "Cruciferous Plus",
@@ -196,14 +196,24 @@ export const productosViewClientes = [
     precio: 1847,
   },
   {
-    nombre: "Pro Vitality Plus",
+    nombre: "Pro Vitality",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379795/neolife/qoib5f97wx6lxc9z0anc.webp",
-    descripcion:
-      "°Energía Abundante. °Protección Antioxidante Poderosa. °Bienestar Cardiaco. °Función Cerebral Saludable. °Articulaciones Saludables y visión clara. °Piel, Cabello y Uñas juveniles. °Función Genética Natural de Antienvejecimiento.",
+    descripcion:[
+      "CUATRO NUTRIENTES ESENCIALES: ",
+      "°Tre-en-en °Carotenoid Complex  °Salmon oil plus °Complejo esencial de vitaminas y minerales",
+      "Nutrientes potentes que contribuyen a:",
+      "° Energía Abundante.",
+      "° Protección Antioxidante Poderosa.",
+      "° Bienestar Cardiaco.",
+      "° Función Cerebral Saludable.",
+      "° Articulaciones Saludables y visión clara.",
+      "° Piel, Cabello y Uñas juveniles.",
+      "° Función Genética Natural de Antienvejecimiento",
+    ],
     precio: 1008,
   },
   {
-    nombre: "Quelado Call-Mag",
+    nombre: "Quelado Cal-Mag",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379801/neolife/jlizb1nga0i36u3fhozy.webp",
     descripcion:
       "°Proporciona vitamina D3, de forma fácilmente absorbible y altamente biodisponible. °Calcio farmacéuticamente puro, derivado de conchas marinas. °Está demostrado que pospone o previene el desarrollo de la osteoporosis. °Ayuda a la presión arterial normal,optimiza la función nerviosa y muscular.",
@@ -240,8 +250,11 @@ export const productosViewClientes = [
   {
     nombre: "Tre en en",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379767/neolife/iqyznekpstao4atbtpif.webp",
-    descripcion:
-      "°Se demostró que cuando Tre-en-en está presente en la dieta, mejoró el crecimiento y el desarrollo general, la eficiencia y utilización de los nutrientes y el desarrollo cardiovascular. °Energía y la vitalidad optimizando el funcionamiento de la membrana celular. Llena de energía todo el cuerpo, ayudando a las células a funcionar de manera más eficiente..",
+    descripcion:[
+      "El primer y único suplemento en el mundo de lípidos y esteroles procedentes de granos integrales",
+      "Se demostró que cuando Tre-en-en está presente en la dieta, mejoró el crecimiento y el desarrollo general, la eficiencia y utilización de los nutrientes y el desarrollo cardiovascular.",
+      "° Mejora la energía y la vitalidad optimizando el funcionamiento de la membrana celular. Llena de energía todo el cuerpo, ayudando a las células a funcionar de manera más eficiente.",
+    ],
     precio: 811,
   },
   {
@@ -259,17 +272,27 @@ export const productosViewClientes = [
     precio: 731,
   },
   {
-    nombre: "Vitamin E Plus",
+    nombre: "Vitamin E plus",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379783/neolife/wyj6aw7gkljl7j7pej93.webp",
-    descripcion:
-      "°Ofrece las 8 formas de la vitamina E para una protección de amplio espectro °Ayuda a inhibir la oxidación del colesterol gracias a sus potentes efectos antioxidantes. °Mejora la función inmunológica, especialmente en los ancianos. °La tecnología innovadora miscible en agua mejora la absorción. °La vitamina E contribuye a la salud cardíaca, del cerebro y la próstata °Promueve la función del pulmón, el colon y la función inmunológica, así como una piel de apariencia juvenil..",
+    descripcion:[
+      "Ofrece las 8 formas de la vitamina E para una protección de amplio espectro",
+      "° Ayuda a inhibir la oxidación del colesterol gracias a sus potentes efectos antioxidantes.",
+      "° Mejora la función inmunológica, especialmente en los ancianos.",
+      "° La tecnología innovadora miscible en agua mejora la absorción.",
+      "° La vitamina E contribuye a la salud cardíaca, del cerebro y la próstata",
+    ],
     precio: 1238,
   },
   {
     nombre: "Vita-Squares",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379768/neolife/felrmyxxzjcfouef0oia.webp",
-    descripcion:
-      "°Proporciona nutrientes que promueven el crecimiento y el desarrollo saludable del cuerpo y la mente. °Mejorado con colina e inositol para una memoria óptima, aprendizaje y concentración. °Concentrado de granos Tre-en-en para la energía celular. °Sincolorantes,sabores,edulcorantesniconservantes artificiales añadidos..",
+    descripcion:[
+      "Cargado con 18 vitaminas y minerales esenciales",
+      "Proporciona nutrientes que promueven el crecimiento y el desarrollo saludable del cuerpo y la mente.",
+      "° Mejorado con colina e inositol para una memoria óptima, aprendizaje y concentración.",
+      "° Concentrado de granos Tre-en-en para la energía celular.",
+      "° Sin colorantes, sabores, edulcorantes ni conservantes artificiales añadidos",
+    ],
     precio: 498,
   },
   {
@@ -282,8 +305,10 @@ export const productosViewClientes = [
   {
     nombre: "Aloe Vera Gel",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379791/neolife/loomacocvrixd4olrrda.webp",
-    descripcion:
-      "°Contribuye a la salud de la visión y de la próstata. Mantiene su metabolismo trabajando al máximo. °Se ha demostrado que el Zinc mejora la memoria y la atención en los niños. °Quelados para una mayor absorción y suaves con tu sistema digestivo. °Zinc quelado para una mayor absorción y suave con tu sistema digestivo..",
+    descripcion:[
+      "°El Gel de Aloe Vera de Nutriance contiene una rica combinación de aloe vera puro, manzanilla, tilo, aciano y extractos de hierba de San Juan, además de alantoína y caléndula para apoyar la renovación célular, tambiénDF contiene provitamina B5 (pantenol) para suavizar la piel y dar elasticidad. Clínicamente probado para hidratar, ayudar a calmar y reducir las molestias leves de la piel. También ayuda a la renovación de la misma.",
+      "Fórmula única que se adapta a cada persona e interactúa con las feromonas naturales de su cuerpo mezclándose con su química personal para hacerse prácticamente imperceptible por la nariz. No entrará en conflicto con su delicado perfume o colonia favorita.",
+    ],
     precio: 378,
   },
   {
@@ -419,8 +444,14 @@ export const productosViewDistribuidores = [
   {
     nombre: "CoQ10",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379792/neolife/ohimy2wwnpyibing5x71.webp",
-    descripcion:
-      "Energía celular mitocondrial. <br>Apoyo en la salud cardiovascular (5,000 mitocondrias). <br>Reducir del dolor muscular y la sensibilidad. <br>Apoya una visión y una audición saludables.<br>Disminuir las posibilidades de migraña.",
+    descripcion: [
+      "Nutrición poderosa para:",
+      "Promover energía celular mitocondrial.",
+      "Apoyo en la salud cardiovascular (5,000 mitocondrias).",
+      "Reducir   del   dolor   muscular   y   la   sensibilidad.",
+      "Apoya una visión y una audición saludables.",
+      "Disminuir las posibilidades de migraña.",
+    ],
     precio: 930,
     puntos: 34,
     caja: {
@@ -579,10 +610,20 @@ export const productosViewDistribuidores = [
     },
   },
   {
-    nombre: "Pro Vitality Plus",
+    nombre: "Pro Vitality",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379795/neolife/qoib5f97wx6lxc9z0anc.webp",
-    descripcion:
-      "°Energía Abundante. °Protección Antioxidante Poderosa. °Bienestar Cardiaco. °Función Cerebral Saludable. °Articulaciones Saludables y visión clara. °Piel, Cabello y Uñas juveniles. °Función Genética Natural de Antienvejecimiento.",
+    descripcion:[
+      "CUATRO NUTRIENTES ESENCIALES: ",
+      "°Tre-en-en °Carotenoid Complex  °Salmon oil plus °Complejo esencial de vitaminas y minerales",
+      "Nutrientes potentes que contribuyen a:",
+      "° Energía Abundante.",
+      "° Protección Antioxidante Poderosa.",
+      "° Bienestar Cardiaco.",
+      "° Función Cerebral Saludable.",
+      "° Articulaciones Saludables y visión clara.",
+      "° Piel, Cabello y Uñas juveniles.",
+      "° Función Genética Natural de Antienvejecimiento",
+    ],
     precio: 756,
     puntos: 34,
     caja: {
@@ -591,7 +632,7 @@ export const productosViewDistribuidores = [
     },
   },
   {
-    nombre: "Quelado Call-Mag",
+    nombre: "Quelado Cal-Mag",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379801/neolife/jlizb1nga0i36u3fhozy.webp",
     descripcion:
       "°Proporciona vitamina D3, de forma fácilmente absorbible y altamente biodisponible. °Calcio farmacéuticamente puro, derivado de conchas marinas. °Está demostrado que pospone o previene el desarrollo de la osteoporosis. °Ayuda a la presión arterial normal,optimiza la función nerviosa y muscular.",
@@ -653,8 +694,11 @@ export const productosViewDistribuidores = [
   {
     nombre: "Tre en en",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379767/neolife/iqyznekpstao4atbtpif.webp",
-    descripcion:
-      "°Se demostró que cuando Tre-en-en está presente en la dieta, mejoró el crecimiento y el desarrollo general, la eficiencia y utilización de los nutrientes y el desarrollo cardiovascular. °Energía y la vitalidad optimizando el funcionamiento de la membrana celular. Llena de energía todo el cuerpo, ayudando a las células a funcionar de manera más eficiente..",
+    descripcion:[
+      "El primer y único suplemento en el mundo de lípidos y esteroles procedentes de granos integrales",
+      "Se demostró que cuando Tre-en-en está presente en la dieta, mejoró el crecimiento y el desarrollo general, la eficiencia y utilización de los nutrientes y el desarrollo cardiovascular.",
+      "° Mejora la energía y la vitalidad optimizando el funcionamiento de la membrana celular. Llena de energía todo el cuerpo, ayudando a las células a funcionar de manera más eficiente.",
+    ],
     precio: 605,
     puntos: 34,
     caja: {
@@ -689,8 +733,13 @@ export const productosViewDistribuidores = [
   {
     nombre: "Vitamin E plus",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379783/neolife/wyj6aw7gkljl7j7pej93.webp",
-    descripcion:
-      "°Ofrece las 8 formas de la vitamina E para una protección de amplio espectro °Ayuda a inhibir la oxidación del colesterol gracias a sus potentes efectos antioxidantes. °Mejora la función inmunológica, especialmente en los ancianos. °La tecnología innovadora miscible en agua mejora la absorción. °La vitamina E contribuye a la salud cardíaca, del cerebro y la próstata °Promueve la función del pulmón, el colon y la función inmunológica, así como una piel de apariencia juvenil..",
+    descripcion:[
+      "Ofrece las 8 formas de la vitamina E para una protección de amplio espectro",
+      "° Ayuda a inhibir la oxidación del colesterol gracias a sus potentes efectos antioxidantes.",
+      "° Mejora la función inmunológica, especialmente en los ancianos.",
+      "° La tecnología innovadora miscible en agua mejora la absorción.",
+      "° La vitamina E contribuye a la salud cardíaca, del cerebro y la próstata",
+    ],
     precio: 928,
     puntos: 30,
     caja: {
@@ -701,8 +750,13 @@ export const productosViewDistribuidores = [
   {
     nombre: "Vita-Squares",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379768/neolife/felrmyxxzjcfouef0oia.webp",
-    descripcion:
-      "°Proporciona nutrientes que promueven el crecimiento y el desarrollo saludable del cuerpo y la mente. °Mejorado con colina e inositol para una memoria óptima, aprendizaje y concentración. °Concentrado de granos Tre-en-en para la energía celular. °Sincolorantes,sabores,edulcorantesniconservantes artificiales añadidos..",
+    descripcion:[
+      "Cargado con 18 vitaminas y minerales esenciales",
+      "Proporciona nutrientes que promueven el crecimiento y el desarrollo saludable del cuerpo y la mente.",
+      "° Mejorado con colina e inositol para una memoria óptima, aprendizaje y concentración.",
+      "° Concentrado de granos Tre-en-en para la energía celular.",
+      "° Sin colorantes, sabores, edulcorantes ni conservantes artificiales añadidos",
+    ],
     precio: 373,
     puntos: 13,
     caja: {
@@ -725,8 +779,10 @@ export const productosViewDistribuidores = [
   {
     nombre: "Aloe Vera Gel",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379791/neolife/loomacocvrixd4olrrda.webp",
-    descripcion:
-      "°El Gel de Aloe Vera de Nutriance contiene una rica combinación de aloe vera puro, manzanilla, tilo, aciano y extractos de hierba de San Juan, además de alantoína y caléndula para apoyar la renovación célular, también contiene provitamina B5 (pantenol) para suavizar la piel y dar elasticidad. Clínicamente probado para hidratar, ayudar a calmar y reducir las molestias leves de la piel. También ayuda a la renovación de la misma. Fórmula única que se adapta a cada persona e interactúa con las feromonas naturales de su cuerpo mezclándose con su química personal para hacerse prácticamente imperceptible por la nariz. No entrará en conflicto con su delicado perfume o colonia favorita.",
+    descripcion:[
+      "°El Gel de Aloe Vera de Nutriance contiene una rica combinación de aloe vera puro, manzanilla, tilo, aciano y extractos de hierba de San Juan, además de alantoína y caléndula para apoyar la renovación célular, tambiénDF contiene provitamina B5 (pantenol) para suavizar la piel y dar elasticidad. Clínicamente probado para hidratar, ayudar a calmar y reducir las molestias leves de la piel. También ayuda a la renovación de la misma.",
+      "Fórmula única que se adapta a cada persona e interactúa con las feromonas naturales de su cuerpo mezclándose con su química personal para hacerse prácticamente imperceptible por la nariz. No entrará en conflicto con su delicado perfume o colonia favorita.",
+    ],
     precio: 274,
     puntos: 8,
     caja: {
