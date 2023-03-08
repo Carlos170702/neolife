@@ -890,10 +890,14 @@ export const Productos = () => {
 
   // enviar productos a whatsapp distribuidores
   const enviarWhatsappDistribuidor = (posicionTelefono) => {
+    console.log(enlaces.split(",")[posicionTelefono]);
+    console.log(enlaces[posicionTelefono]);
     tipoDePago !== null && carrito.length > 0
       ? window.open(
           `https://wa.me/${
-            enlaces.split(",")[posicionTelefono]
+            typeof enlaces === "string"
+              ? enlaces.split(",")[posicionTelefono]
+              : enlaces[posicionTelefono]
           }?text=Hola!%0A%0APEDIDO:%0A${
             carrito.length > 0 &&
             productosPedir().map((element) => {
