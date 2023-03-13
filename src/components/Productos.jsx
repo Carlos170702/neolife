@@ -79,7 +79,7 @@ export const productosViewClientes = [
     descripcion: [
       "°Retención muscular.",
       "°Ayuda a la Movilización de la grasa.",
-      "°REspalda el desarrollo del tejido magro.",
+      "°Respalda el desarrollo del tejido magro.",
       "°Ayuda a la tonificación general del cuerpo.",
       "°Diseñado para trabajar mientras duerme.",
     ],
@@ -175,19 +175,19 @@ export const productosViewClientes = [
       "°Apoya la salud metabólica general a través de la regulación normal de la glucosa en sangre y los niveles hormonales equilibrados. °Ayuda a tener huesos y dientes fuertes. °Promueve la contracción y relajación muscular saludable. °Ayuda a prevenir calambres, debilidad muscular y problemas de coordinación asociados con bajos niveles de magnesio. °Ayuda a estimular el sistema inmune..",
     precio: 403,
   },
-  {
-    nombre: "NeoLifeShake",
-    img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379801/neolife/jj2kwjxcjn9zxmts4iz8.webp",
-    descripcion:
-      "°Tecnología de Control de la Respuesta Glicémica. Para ayudar a minimizar la acumulación de grasa y fomentar la quema de grasa. °BIOLÓGICAMENTE Completa con todos los 22 aminoácidos. Incluidos los 9 esenciales. °Que proporcionan energía duradera y animan a tu cuerpo a permanecer en una modalidad de la quema de grasas..",
-    precio: 1108,
-    sabores: [
-      "NeoLifeShake Chocolate",
-      "NeoLifeShake Frutos Rojos con Crema",
-      "NeoLifeShake Mix",
-      "NeoLifeShake Vainilla cremosa",
-    ],
-  },
+  // {
+  //   nombre: "NeoLifeShake",
+  //   img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379801/neolife/jj2kwjxcjn9zxmts4iz8.webp",
+  //   descripcion:
+  //     "°Tecnología de Control de la Respuesta Glicémica. Para ayudar a minimizar la acumulación de grasa y fomentar la quema de grasa. °BIOLÓGICAMENTE Completa con todos los 22 aminoácidos. Incluidos los 9 esenciales. °Que proporcionan energía duradera y animan a tu cuerpo a permanecer en una modalidad de la quema de grasas..",
+  //   precio: 1108,
+  //   sabores: [
+  //     "NeoLifeShake Chocolate",
+  //     "NeoLifeShake Frutos Rojos con Crema",
+  //     "NeoLifeShake Mix",
+  //     "NeoLifeShake Vainilla cremosa",
+  //   ],
+  // },
   {
     nombre: "PhytoDefense",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379804/neolife/i1rezvupbh7usfzddvnm.webp",
@@ -320,7 +320,7 @@ export const productosViewClientes = [
   },
   {
     nombre: "Shampoo Revitalizante Enriquecido",
-    img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379793/neolife/cyn2ptep2av2cy2flb6i.webp",
+    img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1678671846/neolife/ndsrzbrrythr0uxjlyta.jpg",
     descripcion:
       "°Enjuaga las impurezas y añade luminosidad con el lujoso champú “Rich Revitalizing Shampoo” de Nutriance, de calidad de salón de belleza. Con Vitamina B3 y ProVitamina B5 (Pantenol), más una combinación selecta de ingredientes botánicos seleccionados para limpiar y nutrir efectivamente, además de agregar brillo, cuerpo y manejabilidad. Su cabello y cuero cabelludo se sentirán limpios y revitalizados cada vez que los mimes con esta fórmula limpiadora suave. Limpia suavemente, elimina la suciedad y los residuos de los productos de belleza. Aporta luminosidad natural, movimiento y brillo a tu cabello. Disfruta de un cabello suave, sedoso y manejable.",
     precio: 303,
@@ -348,7 +348,7 @@ export const productosViewDistribuidores = [
     precio: 293,
     puntos: 10,
     caja: {
-      precio: 1663,
+      precio: 1664,
       puntos: 60,
     },
   },
@@ -414,7 +414,8 @@ export const productosViewDistribuidores = [
       precio: 4702,
       puntos: 216,
     },
-    precio: 1103,
+    precio: 829,
+    puntos: 36,
   },
   {
     nombre: "Bio-Tone NTS",
@@ -456,7 +457,7 @@ export const productosViewDistribuidores = [
       "Apoya una visión y una audición saludables.",
       "Disminuir las posibilidades de migraña.",
     ],
-    precio: 930,
+    precio: 698,
     puntos: 34,
     caja: {
       precio: 3958,
@@ -495,7 +496,7 @@ export const productosViewDistribuidores = [
     precio: 627,
     puntos: 24,
     caja: {
-      precio: 4553,
+      precio: 3553,
       puntos: 144,
     },
   },
@@ -808,7 +809,7 @@ export const productosViewDistribuidores = [
   },
   {
     nombre: "Shampoo Revitalizante Enriquecido",
-    img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379793/neolife/cyn2ptep2av2cy2flb6i.webp",
+    img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1678671846/neolife/ndsrzbrrythr0uxjlyta.jpg",
     descripcion:
       "°Enjuaga las impurezas y añade luminosidad con el lujoso champú “Rich Revitalizing Shampoo” de Nutriance, de calidad de salón de belleza. Con Vitamina B3 y ProVitamina B5 (Pantenol), más una combinación selecta de ingredientes botánicos seleccionados para limpiar y nutrir efectivamente, además de agregar brillo, cuerpo y manejabilidad. Su cabello y cuero cabelludo se sentirán limpios y revitalizados cada vez que los mimes con esta fórmula limpiadora suave. Limpia suavemente, elimina la suciedad y los residuos de los productos de belleza. Aporta luminosidad natural, movimiento y brillo a tu cabello. Disfruta de un cabello suave, sedoso y manejable.",
     precio: 220,

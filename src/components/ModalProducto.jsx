@@ -6,7 +6,7 @@ import {
   addProductoModal,
   deleteCarrito,
 } from "../store/slices/productos/productosSlice";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export const ModalProducto = () => {
   const [tipoDeCantidad, setTipoDeCantidad] = useState("unidad");
@@ -89,6 +89,10 @@ export const ModalProducto = () => {
     setTipoDeCantidad(target.value);
   };
 
+  useEffect(() => {
+    modalProducto?.nombre === "NeoLifeShake" && setTipoDeCantidad("caja");
+  }, []);
+
   return (
     <div className="modalProducto">
       <div className="modalProducto__view animate__animated animate__fadeInDown">
@@ -106,22 +110,25 @@ export const ModalProducto = () => {
 
         {enlaces.length > 0 && (
           <div className="modalProducto__tipoDeCompra">
-            <div className="modalProducto__Tipo">
-              <input
-                type="radio"
-                name="tipo de compra"
-                value="unidad"
-                onClick={updateCantidad}
-                defaultChecked
-              />
-              <label>Comprar por unidad/es</label>{" "}
-            </div>
+            {modalProducto?.nombre !== "NeoLifeShake" && (
+              <div className="modalProducto__Tipo">
+                <input
+                  type="radio"
+                  name="tipo de compra"
+                  value="unidad"
+                  onClick={modalProducto?.nombre !== "NeoLifeShake"}
+                  defaultChecked
+                />
+                <label>Comprar por unidad/es</label>{" "}
+              </div>
+            )}
             <div className="modalProducto__Tipo">
               <input
                 type="radio"
                 name="tipo de compra"
                 value="caja"
                 onClick={updateCantidad}
+                defaultChecked={modalProducto?.nombre === "NeoLifeShake"}
               />
               <label>Comprar por caja/s (6 unidades)</label>
             </div>
@@ -174,7 +181,7 @@ export const ModalProducto = () => {
 
         {enlaces.length > 0 && (
           <p className="modalProducto__puntos">
-            {`Acomulas ${
+            {`Acumulas ${
               cantidad *
               (tipoDeCantidad !== "unidad"
                 ? modalProducto?.caja?.puntos
