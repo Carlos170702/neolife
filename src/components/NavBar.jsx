@@ -18,19 +18,27 @@ export const NavBar = ({ view }) => {
         />
       </Link>
       <div className="navbar__enlaces">
-        {/* donde dice hfre ahi pones el link del pdf o importas el pdf  y le pones el nombre de la importacion*/}
-        {/* <a href={pdf} target="_BLANK">
-          <p className="navbar__drive">CATEGORÍAS</p>
-        </a> */}
+        {enlaces.length > 0 && view && (
+          <>
+            <a
+              href="https://drive.google.com/file/d/1Q7L4HTPGVmN_OPHlk-z4obrkssZiWUK6/view"
+              target="_BLANK"
+            >
+              <p className="navbar__drive">CATEGORÍAS</p>
+            </a>
+          </>
+        )}
 
         <a onClick={() => navigate("/Nosotros")}>
           <p className="navbar__drive">SOBRE NOSOTROS</p>
         </a>
 
         {enlaces.length > 0 && view && (
-          <a href={pdf} target="_BLANK">
-            <p className="navbar__drive">REGISTRO</p>
-          </a>
+          <>
+            <a href={pdf} target="_BLANK">
+              <p className="navbar__drive">REGISTRO</p>
+            </a>
+          </>
         )}
       </div>
     </div>

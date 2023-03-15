@@ -175,19 +175,18 @@ export const productosViewClientes = [
       "°Apoya la salud metabólica general a través de la regulación normal de la glucosa en sangre y los niveles hormonales equilibrados. °Ayuda a tener huesos y dientes fuertes. °Promueve la contracción y relajación muscular saludable. °Ayuda a prevenir calambres, debilidad muscular y problemas de coordinación asociados con bajos niveles de magnesio. °Ayuda a estimular el sistema inmune..",
     precio: 403,
   },
-  // {
-  //   nombre: "NeoLifeShake",
-  //   img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379801/neolife/jj2kwjxcjn9zxmts4iz8.webp",
-  //   descripcion:
-  //     "°Tecnología de Control de la Respuesta Glicémica. Para ayudar a minimizar la acumulación de grasa y fomentar la quema de grasa. °BIOLÓGICAMENTE Completa con todos los 22 aminoácidos. Incluidos los 9 esenciales. °Que proporcionan energía duradera y animan a tu cuerpo a permanecer en una modalidad de la quema de grasas..",
-  //   precio: 1108,
-  //   sabores: [
-  //     "NeoLifeShake Chocolate",
-  //     "NeoLifeShake Frutos Rojos con Crema",
-  //     "NeoLifeShake Mix",
-  //     "NeoLifeShake Vainilla cremosa",
-  //   ],
-  // },
+  {
+    nombre: "NeoLifeShake",
+    img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379801/neolife/jj2kwjxcjn9zxmts4iz8.webp",
+    descripcion:
+      "°Tecnología de Control de la Respuesta Glicémica. Para ayudar a minimizar la acumulación de grasa y fomentar la quema de grasa. °BIOLÓGICAMENTE Completa con todos los 22 aminoácidos. Incluidos los 9 esenciales. °Que proporcionan energía duradera y animan a tu cuerpo a permanecer en una modalidad de la quema de grasas..",
+    precio: 1108,
+    sabores: [
+      "NeoLifeShake Chocolate",
+      "NeoLifeShake Frutos Rojos con Crema",
+      "NeoLifeShake Vainilla cremosa",
+    ],
+  },
   {
     nombre: "PhytoDefense",
     img: "https://res.cloudinary.com/carlosdaniel/image/upload/v1677379804/neolife/i1rezvupbh7usfzddvnm.webp",

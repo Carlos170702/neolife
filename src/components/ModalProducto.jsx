@@ -13,6 +13,7 @@ export const ModalProducto = () => {
   const [cantidad, setCantidad] = useState(0);
   const [sabor, setSabor] = useState(null);
   const { modalProducto, enlaces } = useSelector((state) => state.productos);
+  const [sabores, Setsabores] = useState([]);
   const dispatch = useDispatch();
 
   // elegir cantidad
@@ -90,8 +91,18 @@ export const ModalProducto = () => {
   };
 
   useEffect(() => {
-    modalProducto?.nombre === "NeoLifeShake" && setTipoDeCantidad("caja");
-  }, []);
+    if (tipoDeCantidad === "unidad") {
+      const res = modalProducto?.sabores?.filter(
+        (item) => item !== "NeoLifeShake Mix"
+      );
+      Setsabores(res);
+      return;
+    }
+
+    Setsabores(modalProducto?.sabores);
+  }, [tipoDeCantidad]);
+
+  console.log(sabores);
 
   return (
     <div className="modalProducto">
@@ -110,25 +121,22 @@ export const ModalProducto = () => {
 
         {enlaces.length > 0 && (
           <div className="modalProducto__tipoDeCompra">
-            {modalProducto?.nombre !== "NeoLifeShake" && (
-              <div className="modalProducto__Tipo">
-                <input
-                  type="radio"
-                  name="tipo de compra"
-                  value="unidad"
-                  onClick={modalProducto?.nombre !== "NeoLifeShake"}
-                  defaultChecked
-                />
-                <label>Comprar por unidad/es</label>{" "}
-              </div>
-            )}
+            <div className="modalProducto__Tipo">
+              <input
+                type="radio"
+                name="tipo de compra"
+                value="unidad"
+                onClick={updateCantidad}
+                defaultChecked
+              />
+              <label>Comprar por unidad/es</label>{" "}
+            </div>
             <div className="modalProducto__Tipo">
               <input
                 type="radio"
                 name="tipo de compra"
                 value="caja"
                 onClick={updateCantidad}
-                defaultChecked={modalProducto?.nombre === "NeoLifeShake"}
               />
               <label>Comprar por caja/s (6 unidades)</label>
             </div>
@@ -156,8 +164,8 @@ export const ModalProducto = () => {
               <option value="sabores" selected disabled>
                 Sabores
               </option>
-              {modalProducto?.sabores.map((item, index) => (
-                <option kay={index} value={item}>
+              {sabores?.map((item, index) => (
+                <option key={index} value={item}>
                   {item}
                 </option>
               ))}
